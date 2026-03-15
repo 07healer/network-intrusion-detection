@@ -132,7 +132,7 @@ imbalanced-learn · pandas · numpy · matplotlib · seaborn
 
 ## Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/network-intrusion-detection
+git clone https://github.com/07healer/network-intrusion-detection
 cd network-intrusion-detection
 pip install -r requirements.txt
 ```
