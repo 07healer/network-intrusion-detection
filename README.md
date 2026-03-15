@@ -48,7 +48,7 @@ Source: Canadian Institute for Cybersecurity
 | `01_eda.ipynb` | Class distribution, attack breakdown, feature types |
 | `02_preprocessing.ipynb` | Label encoding, standard scaling, SMOTE balancing |
 | `03_models.ipynb` | Logistic Regression, Random Forest, XGBoost — multiclass comparison |
-| `03b_r2l_improvement.ipynb` | R2L recall analysis — class weights, threshold tuning, dedicated classifier |
+| `03_r2l.ipynb` | R2L recall analysis — class weights, threshold tuning, dedicated classifier |
 | `04_shap_explanations.ipynb` | Global + per-attack-family SHAP feature importance |
 | `05_autoencoder.ipynb` | Autoencoder anomaly detection — training, threshold optimisation, zero-day evaluation |
 | `06_realtime_pipeline.ipynb` | Live stream simulation — two-layer pipeline with SOC analyst output |
@@ -68,7 +68,7 @@ Source: Canadian Institute for Cybersecurity
 | normal | 0.84 | 0.97 | 0.90 |
 | **Macro F1** | | | **0.69** |
 
-> R2L recall (0.17 baseline) was investigated in `03b_r2l_improvement.ipynb`.
+> R2L recall (0.17 baseline) was investigated in `03_r2l.ipynb`.
 > Threshold tuning at 0.05 improved R2L recall to 0.30 while raising overall
 > macro F1 to 0.73 with precision held at 0.985.
 
